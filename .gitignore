@@ -1,0 +1,48 @@
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Log files
+*.log
+/tmp/
+logs/
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Test artifacts
+test-*.txt
+diagnostic-*.txt
+
+# Build artifacts
+dist/
+build/
+
+# OS files
+Thumbs.db
+.directory
+
+# Sensitive data
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
+
+# ZeroTier specific
+/var/backup/zerotier-conf-*/
+
+# Configuration backups
+*.conf.bak
+*.conf.old
