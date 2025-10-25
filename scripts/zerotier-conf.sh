@@ -524,7 +524,7 @@ configure_nftables() {
     local nft_config="/etc/nftables.conf"
     
     if [[ $DRY_RUN -eq 0 ]]; then
-        cat | sudo tee -a "$nft_config" >/dev/null <<EOF
+        sudo tee -a "$nft_config" >/dev/null <<EOF
 
 # ZeroTier NAT configuration
 table ip nat {
